@@ -229,13 +229,9 @@ fig, ax = plt.subplots(2,2, figsize=(12,10))
 
 ## Grafik Gabungan
 
-<p align="center">
-  <img src="images/grafik_gabungan.png" width="900">
-</p>
+Seluruh visualisasi hasil analisis digabungkan menggunakan `subplot(2,2)`.
 
-<p align="center">
-  <em>Gambar 1. Visualisasi gabungan hasil analisis data.</em>
-</p>
+![Grafik Gabungan](images/grafik_gabungan.png)
 
 Visualisasi gabungan terdiri atas:
 
