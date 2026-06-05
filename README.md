@@ -229,14 +229,12 @@ fig, ax = plt.subplots(2,2, figsize=(12,10))
 
 ## Grafik Gabungan
 
-Seluruh hasil visualisasi dari Kategori A, B, C, dan D digabungkan ke dalam satu tampilan menggunakan `subplot(2,2)` sehingga seluruh hasil analisis dapat diamati dalam satu halaman.
-
 <p align="center">
-  <img src="images/grafik_gabungan.png" alt="Grafik Gabungan" width="850">
+  <img src="images/grafik_gabungan.png" width="900">
 </p>
 
 <p align="center">
-  <em>Gambar 1. Visualisasi gabungan Pie Chart, Bar Chart, Scatter Plot, dan Histogram + KDE.</em>
+  <em>Gambar 1. Visualisasi gabungan hasil analisis data.</em>
 </p>
 
 Visualisasi gabungan terdiri atas:
