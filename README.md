@@ -227,21 +227,26 @@ Grafik gabungan dibuat menggunakan fungsi:
 fig, ax = plt.subplots(2,2, figsize=(12,10))
 ```
 
-### Layout Visualisasi
+## Grafik Gabungan
 
-```text
-┌───────────────────┬───────────────────┐
-│ Grafik A          │ Grafik B          │
-│ Pie Chart         │ Bar Chart         │
-├───────────────────┼───────────────────┤
-│ Grafik C          │ Grafik D          │
-│ Scatter Plot      │ Histogram + KDE   │
-└───────────────────┴───────────────────┘
-```
+Seluruh hasil visualisasi dari Kategori A, B, C, dan D digabungkan ke dalam satu tampilan menggunakan `subplot(2,2)` sehingga seluruh hasil analisis dapat diamati dalam satu halaman.
 
-Visualisasi ini bertujuan untuk menampilkan seluruh hasil analisis dalam satu tampilan yang lebih ringkas dan mudah dipahami.
+<p align="center">
+  <img src="images/grafik_gabungan.png" alt="Grafik Gabungan" width="850">
+</p>
 
----
+<p align="center">
+  <em>Gambar 1. Visualisasi gabungan Pie Chart, Bar Chart, Scatter Plot, dan Histogram + KDE.</em>
+</p>
+
+Visualisasi gabungan terdiri atas:
+
+- **Pie Chart** untuk menampilkan distribusi jumlah negara berdasarkan region.
+- **Bar Chart** untuk menampilkan negara dengan nilai *income inequality* terendah pada wilayah Central and Eastern Europe.
+- **Scatter Plot** untuk menunjukkan hubungan antara GDP dan *average satisfaction*.
+- **Histogram + KDE** untuk menampilkan distribusi nilai *Happy Score*.
+
+Penggabungan seluruh grafik ke dalam satu tampilan memudahkan proses analisis karena setiap hasil visualisasi dapat dibandingkan secara langsung tanpa harus membuka grafik secara terpisah.
 
 ## 🌟 Kontribusi Anggota
 
